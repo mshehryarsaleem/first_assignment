@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TodoList App</title> 
+	<link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  
+	<link rel="stylesheet" type="text/css" href="style.css">	
+</head>
+
+<body>
+	<div class="hero">
+		<div class="container">
+			
+			<h1 class="lead text-center mb-4">TodoList </h1>
+			<div class="row">
+
+
+				<form id="form" class="col-lg-6 col-8 mx-auto">
+					<div class="input-group">
+						<input id="input" class="form-control" placeholder="Enter item " ></input>
+						<span>
+							<button id="btn" type="button" class="btn btn-primary">Submit item</button>
+						</span>
+					</div>	 
+
+					<div style="margin-top: 30px;" class="input-group">
+						<input id="input2" class="form-control" placeholder="Search" ></input>
+						<span>
+							<button id="searchbtn" type="button" class="btn btn-primary">Searh</button>
+						</span>
+					</div>	
+					
+				</form>
+
+
+			</div>			
+			<div class="row">				
+				<ul id="list" class="list col-lg-6 col-8 mx-auto"> 
+				</ul>
+			</div>
+			<div class="row">
+				<button id="btnClr" type="button" class="btn btn-primary mx-auto btnHide">Delete All</button>
+			</div>				
+		</div>
+	</div>
+
+	<script type="text/javascript" src="index.js"></script>
+	
+</body>
+</html>
